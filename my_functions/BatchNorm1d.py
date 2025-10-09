@@ -159,7 +159,7 @@ class BatchNorm1dInference:
 # y_torch = bn(x)
 # torch.allclose(y_custom, y_torch, atol=1e-6)
 ###################################################################accuracy###################################################
-""
+"""
 import torch
 import torch.nn as nn
 
@@ -222,4 +222,4 @@ if __name__ == "__main__":
 
     print("\nTesting 3D input (N, C, L):")
     test_batchnorm1d_inference(batch_size=4, num_features=8, length=10)
-"
+"""
